@@ -127,7 +127,7 @@
 
     body {
       font-size: 16px;
-      min-width: 320px;
+      min-width: 80%;
       position: relative;
       line-height: 1.7;
       font-family: "Open Sans", sans-serif;
@@ -1299,6 +1299,7 @@
 
     .skills-section .section-content {
       position: relative;
+      width: 100%;
     }
 
     .skills-section .section-content:after {
@@ -1311,7 +1312,7 @@
       width: 2px;
       height: -webkit-calc(100% + 10px);
       height: calc(100% + 10px);
-      background-color: #eee;
+      /* background-color: #eee; */
     }
 
     /* ------------------------------------------------------
@@ -1409,7 +1410,7 @@
           margin-left: -150px;
           width: 300px;
           padding: 9px 16px 14px 19px;
-          background-color: #eee;
+          background-color: none;
           margin-bottom: 44px;
           visibility: hidden;
           pointer-events: none;
@@ -1473,7 +1474,12 @@
 
     .section.contacts-section {
       padding: 150px 0 143px;
-      margin: 0 auto;
+     
+    }
+
+    .contacts-section .section-content {
+      position: relative;
+      display: flex;
     }
 
     /* ------------------------------------------------------
@@ -1485,7 +1491,8 @@
         }
 
         .contacts-section .contacts-container .contact-item .contact-name {
-          display: inline-block;
+          display: flex;
+          float: left;
           font-size: 18px;
           font-weight: 600;
           line-height: 1;
@@ -1501,7 +1508,7 @@
         }
 
         .contacts-section .contacts-container .contact-item .contact-data .contact-link {
-          display: inline-block;
+          display: relative;
           font-size: 24px;
           line-height: 1;
           letter-spacing: 4px;
@@ -1536,21 +1543,23 @@
 
         .contacts-section .contact-form .input-box {
           position: relative;
+          float: right;
           height: 40px;
           margin-bottom: 50px;
           z-index: 1;
         }
 
         .contacts-section .contact-form .input-box .input {
-          display: block;
+          display: relative;
           background-color: transparent;
           border: none;
           padding: 0 3px;
+          padding-left: 5%;
           margin: 0;
           width: 100%;
           line-height: 40px;
           letter-spacing: 1px;
-          vertical-align: middle;
+          
           height: 40px;
           resize: none;
           outline: none;
@@ -1562,7 +1571,7 @@
           width: 100%;
           letter-spacing: 1px;
           line-height: 55px;
-          vertical-align: middle;
+         
           padding: 0 0 0 3px;
           margin: 0;
           bottom: 0;
@@ -2100,6 +2109,7 @@
     }
 
     .contacts-section .contacts-container {
+      position: static;
       margin-bottom: 43px;
     }
 
