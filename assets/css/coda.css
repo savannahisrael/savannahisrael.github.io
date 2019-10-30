@@ -2062,12 +2062,17 @@
         Skills section
     ------------------------------------------------------ */
 
+   
     .skills-section.skills-section {
         padding: 100px 0 107px;
     }
 
     .skills-section .section-content:after {
       display: none;
+    }
+
+    .skills-section .img-fluid {
+      max-width: 20vh;
     }
 
     .skills-section .skills-bar-container {
@@ -2224,8 +2229,12 @@
         Skills section
     ------------------------------------------------------ */
 
-    .skills-section .skills-description .skills-term-list .skill-term-box .skill-term-description {
+    .skills-section {
       width: 300px;
+    }
+
+    .skills-section .skill-term-box .img-fluid{
+      max-width: 30%;
     }
 
 }
