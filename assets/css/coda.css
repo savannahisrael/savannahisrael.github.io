@@ -944,7 +944,7 @@
         }
 
         .header-text .pop-up-btn:hover {
-          color: #fff;
+          color: #000000;
           -webkit-background-size: 95% 10px;
                   background-size: 95% 10px;
         }
