@@ -2,817 +2,673 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Savannah Israel Portfolio</title>
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Savannah Israel - Digital Portfolio</title>
+  <meta name="description"
+    content="Experienced front end developer with the desire and ability to work on complex digital projects from start to finish, developing conceptual ideas with creative teammates and coding final deliverables. Innovative technologist that brings engineering, designing, and marketing skill sets to all web production processes.">
   <meta property="og:title" content="Savannah Israel Portfolio">
-<meta property="og:image" content="https://i.pinimg.com/564x/96/11/75/961175a7cb490496aade55be44c94258.jpg">
-<meta property="og:description" content="Savannah Israel's personal portfolio.">
-<meta property="og:url" content="https://savannahisrael.com">
-<meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:description"
+    content="Experienced front end developer with the desire and ability to work on complex digital projects from start to finish, developing conceptual ideas with creative teammates and coding final deliverables. Innovative technologist that brings engineering, designing, and marketing skill sets to all web production processes.">
 
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/coda.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/gqj7ale.css">
-
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+  <meta name="msapplication-TileColor" content="#3050d4">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preload" href="./assets/cb/fonts/averta/AvertaCY-Light.woff2" as="font" crossorigin>
+  <link rel="preload" href="./assets/cb/fonts/averta/AvertaCY-Regular.woff2" as="font" crossorigin>
+  <link rel="preload" href="./assets/cb/fonts/averta/AvertaCY-Semibold.woff2" as="font" crossorigin>
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3050d4"> -->
+  <!-- <link rel="prefetch" as="image" href="/assets/img/news/4/1.jpg" crossorigin="anonymous">
+  <link rel="prefetch" as="video" href="/assets/img/news/3/1.mp4" crossorigin="anonymous">
+  <link rel="prefetch" as="video" href="/assets/img/news/2/1.mp4" crossorigin="anonymous"> -->
 </head>
 
-<body id="body" class="blue-color-scheme">
-
-  <!-- Sticky Nav Bar -->
-  <nav class="navbar sticky-top navbar-light container-fluid justify-content-around" id="nav"
-    style="background-color: none;">
-    <a class="navbar-brand col-2 flex-fill underscore" href="#aboutMe"
-      style="font-family: acier-bat-solid, sans-serif; color: rgba(0, 0, 0, 0.72); font-size: 2vh">About Me</a>
-    <a class="navbar-brand col-2 flex-fill underscore" href="#skills"
-      style="font-family: acier-bat-solid, sans-serif; color: rgba(0, 0, 0, 0.72); font-size: 2vh">Skills</a>
-    <a class="navbar-brand col-2 flex-fill underscore" href="#portfolio"
-      style="font-family: acier-bat-solid, sans-serif; color: rgba(0, 0, 0, 0.72); font-size: 2vh">Portfolio</a>
-    <a class="navbar-brand col-2 flex-fill underscore" href="#contacts"
-      style="font-family: acier-bat-solid, sans-serif; color: rgba(0, 0, 0, 0.72); font-size: 2vh">Contact</a>
+<body class="-cursor">
+  <div class="cb-loader cb-loader_overlay"></div>
+  <nav class="cb-menu">
+    <div class="cb-menu-logo"><a href="https://savannahisrael.com/mountainrose" aria-label="Savannah Israel">
+        <img src="assets/img/icons/savannahLogo.png" alt="Savannah Israel" style="max-height: 200px; max-width: 200px;">
+      </a></div>
+    <div class="cb-menu-toggle"><button class="cb-btn cb-btn_menu" aria-label="menu" data-cursor="-menu"
+        data-cursor-stick=".cb-btn_menu-box"><span class="cb-btn_menu-title" style="visibility:hidden;">menu</span><span
+          class="cb-btn_menu-box"
+          data-magnetic="{&quot;x&quot;:&quot;0.08&quot;,&quot;y&quot;:&quot;0.08&quot;}"><span></span><span></span></span></button>
+    </div>
+    <div class="cb-menu-box">
+      <div class="cb-menu-backdrop"></div>
+      <div class="cb-menu-content">
+        <div class="cb-menu-body">
+          <div class="cb-menu-container">
+            <div class="cb-menu-grid">
+              <!-- <div class="cb-menu-grid-col -left">
+                <div class="cb-menu-title">Social</div>
+                <div class="cb-menu-social" data-cursor="-opaque"><a class="cb-menu-social-item"
+                    href="//www.facebook.com/Cuberto.design" target="_blank" rel="noopener" data-magnetic><em><span
+                        data-text="Facebook">Facebook</span></em></a><a class="cb-menu-social-item"
+                    href="//www.behance.net/cuberto" target="_blank" rel="noopener" data-magnetic><em><span
+                        data-text="Behance">Behance</span></em></a><a class="cb-menu-social-item"
+                    href="//dribbble.com/cuberto" target="_blank" rel="noopener" data-magnetic><em><span
+                        data-text="Dribbble">Dribbble</span></em></a><a class="cb-menu-social-item"
+                    href="//www.instagram.com/cubertodesign/" target="_blank" rel="noopener" data-magnetic><em><span
+                        data-text="Instagram">Instagram</span></em></a><a class="cb-menu-social-item"
+                    href="//www.youtube.com/channel/UCzestFrXpwSGCfcbO2pObwQ" target="_blank" rel="noopener"
+                    data-magnetic><em><span data-text="YouTube">YouTube</span></em></a><a class="cb-menu-social-item"
+                    href="//www.patreon.com/cuberto" target="_blank" rel="noopener" data-magnetic><em><span
+                        data-text="Patreon">Patreon</span></em></a></div>
+              </div> -->
+              <div class="cb-menu-grid-col -right">
+                <div class="cb-menu-title">All Projects</div>
+                <div class="cb-menu-nav" role="navigation" data-cursor="-opaque">
+                  <div class="cb-menu-nav-item"><a href="https://savannahisrael.com/" data-magnetic><em><span
+                          data-text="Work">Work</span></em></a></div>
+                  <!-- <div class="cb-menu-nav-item"><a href="/" data-magnetic><em><span
+                          data-text="About">About</span></em></a></div> -->
+                          <div class="cb-menu-nav-item -marked"><a target="_blank" href="https://mountainroseherbs.com" data-magnetic><em><span
+                            data-text="Mountain Rose Herbs">Mountain Rose Herbs E-commerce Website</span></em></a></div>
+                            <div class="cb-menu-nav-item -marked"><a target="_blank" href="https://mountainrosearomabar.com" data-magnetic><em><span
+                              data-text="Aroma Bar">Mountain Rose Aroma Bar</span></em></a></div>
+                              <div class="cb-menu-nav-item -marked"><a target="_blank" href="https://mountainroseherbsmercantile.com" data-magnetic><em><span
+                                data-text="Mercantile">Mountain Rose Herbs Mercantile</span></em></a></div>
+                                <div class="cb-menu-nav-item -marked"><a target="_blank" href="https://peerlesshotel.com" data-magnetic><em><span
+                                  data-text="Peerless Hotel">Peerless Hotel</span></em></a></div>
+                                  <div class="cb-menu-nav-item -marked"><a target="_blank" href="https://blog.mountainroseherbs.com" data-magnetic><em><span
+                                    data-text="Blog">Blog</span></em></a></div>
+                  <div class="cb-menu-nav-item -marked"><a href="./projects/sourcery/index.html" data-magnetic><em><span
+                          data-text="Sourcery">Case Study: Sourcery</span></em></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cb-menu-footer">
+          <div class="cb-menu-container">
+            <div class="cb-menu-title">Get in touch</div>
+            <div class="cb-menu-mail"><a href="mailto:savannah.israel.development@gmail.com">
+                <span>savannah.israel.development@gmail.com</span>
+              </a></div>
+              <div class="cb-menu-mail"><a target="_blank" href="https://www.linkedin.com/in/savannah-israel/">
+                <span>linkedin</span>
+              </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="cb-menu-contact"><a class="cb-btn cb-btn_contact" style="color: #FFFFFF; text-transform: uppercase; font-size: 24px;" href="./contacts/index.html" data-cursor="-exclusion"
+        aria-label="Get in touch">Download CSV</a></div> -->
   </nav>
-
-  <main class="main-content">
-    <!-- Landing Page -->
-    <div class="panel container" id="landing-page" data-color="blue">
-      <div class="row">
-        <div class="col-12">
-          <!-- <img id=largeCircle src="./assets/images/largeCircleBorder.png" style="max-height: 80vh; position: relative;"> -->
-          <img class="img-fluid" id="logo" src="./assets/images/logoGreyText.png" style="max-height: 80vh"></div>
-      </div>
-    </div>
-
-    <!-- About Me Page -->
-    <div class="panel" id="aboutMe" data-color="peach">
-      <div class="card mb-3" style="max-width: 80%; height: auto; background-color: none">
-        <div class="row no-gutters">
-          <div class="col-lg-8 col-12">
-            <img src="./assets/images/IMG_5031.JPG" class="card-img" alt="savannah israel bio pic">
-          </div>
-          <div class="col-lg-4 col-12">
-            <div class="card-body">
-              <h3 class="card-title title">About Me</h3>
-              <p class="card-text text">Hey!  I'm Savannah Israel, a Full Stack Web Developer who thrives off coding and design challenges. I combine creativity with clean-code, high-ambitions, and hard skills.  I build meaningful UX designs and innovative UI features to empower and entice users. My previous experience in human services and operations management cultivated empathy, communication, and problem-solving skills. I am a graduate of the University of Denver Women’s Full Stack Coding Bootcamp.  I am passionate and ready to join a like-minded team.</p>
-              <a href="./assets/Savannah Israel Technical Resume.pdf" download="Savannah Israel Resume"><button type="button" class="btn btn-outline-secondary">Download CV</button></a>
+  <div class="cb-view" data-controller="homeController" id="view-main">
+    <canvas class="cb-scene"></canvas>
+    <div class="cb-layout" role="main" data-scrollbar="true" tabindex="=-1" style="overflow: hidden; outline: none;">
+      <div class="cb-navbar">
+        <div class="cb-navbar-strip">
+          <div class="cb-navbar-grid">
+            <div class="cb-navbar-grid-col -left">
+              <div class="cb-navbar-logo"><a href="/" aria-label="Savannah Israel">
+                  <img src="assets/img/icons/savannahLogo.png" alt="Savannah Israel"
+                    style="max-height: 200px; max-width: 200px;">
+                </a></div>
+            </div>
+            <div class="cb-navbar-grid-col -right">
+              <!-- <div class="cb-navbar-link"><button class="cb-btn cb-btn_nav"><span>my showreel</span></button></div> -->
+              <div class="cb-navbar-toggle"><button class="cb-btn cb-btn_menu" aria-label="menu"><span
+                    class="cb-btn_menu-title">menu</span><span class="cb-btn_menu-box"
+                    style="visibility:hidden"><span></span><span></span></span></button></div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-
-    <!-- Skills and Services Page -->
-    <div class="panel" id="skills" data-color="purple">
-      <section id="skills" class="section skills-section">
-        <div class="container section-header">
-          <div class="row">
-            <!-- section name -->
-            <div class="col-md-6 col-12">
-              <h3 class="title">Skills</h3>
+      <header class="cb-hero">
+        <div class="cb-hero-content">
+          <div class="cb-hero-body">
+            <div class="cb-hero-container">
+              <div class="cb-hero-grid">
+                <div class="cb-hero-grid-col -left">
+                  <div class="cb-hero-video"><video preload="auto" loop muted playsinline>
+                      <source src="./assets/cb/video/hero/0.mp4" type="video/mp4">
+                    </video></div>
+                </div>
+                <div class="cb-hero-grid-col -right">
+                  <div class="cb-hero-header">
+                    <h1>Let's Build A Better World</h1>
+                  </div>
+                  <div class="cb-hero-nav">
+                    <div class="cb-hero-nav-item" data-video-src="./assets/cb/video/hero/1.mp4">
+                      <div class="cb-hero-nav-item-spacer"></div><a
+                        href=""><span>Websites</span></a>
+                    </div>
+                    <div class="cb-hero-nav-item" data-video-src="./assets/cb/video/hero/2.mp4">
+                      <div class="cb-hero-nav-item-spacer"></div><a href=""><span
+                          class="-lg">Design</span><span class="-sm">Design</span></a>
+                    </div>
+                    <div class="cb-hero-nav-item" data-video-src="./assets/cb/video/hero/3.mp4">
+                      <div class="cb-hero-nav-item-spacer"></div><a href=""><span>Marketing</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- end section name -->
+          </div>
+          <div class="cb-hero-footer">
+            <div class="cb-hero-container">
+              <div class="cb-hero-text">
+                <p>Experienced front end developer with the desire and ability to work on complex
+                  digital projects from start to finish, developing conceptual ideas with creative
+                  teammates and coding final deliverables. Innovative technologist that brings
+                  engineering, designing, and marketing skill sets to all web production processes.</p>
+                  <br><br><a href="./assets/img/Savannah Israel Resume.pdf" target="_blank">DOWNLOAD CSV</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container section-content">
-          <div class="row justify-content-between">
-            <!-- skills bar container -->
-            <!-- <div class="col-md-5 col-12 skills-bar-container"> -->
-              <!-- skill bar -->
-              <!-- <div class="skill-bar" data-percent="90">
-                <div class="skill-bar-title">html</div>
-                <div class="skill-bar-percent"><span class="skill-count">90</span>%</div>
-                <div class="skill-bar-bar"></div>
-              </div> -->
-              <!-- end skill bar -->
-              <!-- skill bar -->
-              <!-- <div class="skill-bar" data-percent="95"> -->
-                <!-- <div class="skill-bar-title">css</div>
-                <div class="skill-bar-percent"><span class="skill-count">95</span>%</div>
-                <div class="skill-bar-bar"></div>
-              </div> -->
-              <!-- end skill bar -->
-              <!-- skill bar -->
-              <!-- <div class="skill-bar" data-percent="70">
-                <div class="skill-bar-title">js</div>
-                <div class="skill-bar-percent"><span class="skill-count">70</span>%</div>
-                <div class="skill-bar-bar"></div>
-              </div> -->
-              <!-- end skill bar -->
-              <!-- skill bar -->
-              <!-- <div class="skill-bar" data-percent="50">
-                <div class="skill-bar-title">ui design</div>
-                <div class="skill-bar-percent"><span class="skill-count">50</span>%</div>
-                <div class="skill-bar-bar"></div>
-              </div> -->
-              <!-- end skill bar -->
-            <!-- </div> -->
-            <!-- end skills bar container -->
-            <div class="col-12 skills-description">
-              <!-- skills term list -->
-              <dl class="skills-term-list">
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="underscore img-fluid" src="./assets/images/icons/html.png" alt="HTML5" ></dt>
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name" ><img class="img-fluid" src="./assets/images/icons/css.png" alt="CSS3" ></dt>
-             
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/javascript.png" alt="javascript" ></dt>
-               
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid"src="./assets/images/icons/bootstrap.png" alt="bootstrap" ></dt>
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/materialize1.png" alt="materialize" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/jquery.png" alt="jquery" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/node.png" alt="node" ></dt>
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/npm.png" alt="npm" ></dt>
-                  
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/express.png" alt="express" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/react1.png" alt="react" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <!-- <div class="skill-term-box">
-                  <dt class="skill-term-name"><img  src="./assets/images/icons/handlebars.png" alt="handlebars"></dt>
-                 
-                </div> -->
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/firebase.png" alt="firebase" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/mysql.png" alt="my sql" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/mongodb.png" alt="mongo db" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/aws.png" alt="aws" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/git.png" alt="git" ></dt>
-                 
-                </div>
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/github.png" alt="github" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/heroku.png" alt="heroku" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                <!-- skill term -->
-                <div class="skill-term-box">
-                  <dt class="skill-term-name"><img class="img-fluid" src="./assets/images/icons/photoshop.png" alt="photoshop" ></dt>
-                 
-                </div>
-                <!-- end skill term -->
-                
-                
-              </dl>
-              <!-- end skills term list -->
-            </div>
+      </header>
 
+
+
+      <section class="cb-work">
+        <div class="cb-work-content">
+          <div class="cb-work-container">
+            <div class="cb-work-filter">
+              <div class="cb-work-filter-title">explore</div>
+              <div class="cb-work-filter-active">
+                <span>All Projects</span>
+                <svg class="cb-svgsprite -arrow-down-o">
+                  <use xlink:href="/assets/img/sprites/svgsprites.svg#arrow-down-o"></use>
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-    </div>
+
+      
+    
 
 
-    <!-- Portfolio Page -->
-    <div class="panel" id="portfolio" data-color="yellow">
-      <section id="portfolio" class=" section portfolio-section">
-        <!-- Portfolio Title -->
-        <div class="container" id="portfolio-header" >
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <h3 class="title">Portfolio</h3>
-            </div>
-          </div>
-        </div>
-
-        <!-- Portfolio Content -->
-        <div class="container section-content " id="portfolio-content">
-          <!-- Content Row 1 -->
-          <div class="row filtr-container filter-container">
-
-            <div class="col-lg-6 col-12 filtr-item filter-item">
-
-                <!-- SOURCERY -->
-
-               <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-                <div class="portfolio-item">
-                  <img class="img" src="./assets/images/sourceryScreen.png" alt="SOURCERY">
-                  <div class="portfolio-item-content">
-                    <header class="portfolio-item-header">
-                      <h3><a href="https://sourcery-project.herokuapp.com/" target="_blank" class="underscore">Sourcery Project</a></h3>
-                    </header>
-                  </div>
-                </div>
-              </article>
-             
-             
-              <!-- Brunch -->
-
-              <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-                <div class="portfolio-item">
-                  <img class="img" src="./assets/images/babesScreen.png" alt="Babes In Brunchland">
-                  <div class="portfolio-item-content">
-                    <header class="portfolio-item-header">
-                      <h3><a href="https://savannahisrael.com/BabesInBrunchland" target="_blank" class="underscore">Babes In Brunchland</a></h3>
-                    </header>
-                  </div>
-                </div>
-              </article>
-
-             
-
-
-              <!-- PSYCHIC -->
-              <!-- <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-                <div class="portfolio-item">
-                  <img class="img" src="./assets/images/psychic1.jpg" alt="Demo Image">
-                  <div class="portfolio-item-content">
-                    <header class="portfolio-item-header">
-                      <h3><a href="#psychic" class="underscore pop-up-btn">Psychic Game</a></h3>
-                    </header>
-                  </div>
-                </div>
-              </article> -->
-
-            </div>
-
-            <div class="col-lg-6 col-12 filtr-item filter-item">  
+      <section class="cb-splitshow">
+      <div class="cb-splitshow-content -ct">
+        <div class="cb-splitshow-container">
+          <div class="cb-splitshow-items">
+            <div class="cb-splitshow-col -left">
               
-              <!-- STANCE -->
-
-              <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-               <div class="portfolio-item">
-                 <img class="img" src="./assets/images/stanceScreen.png" alt="stance">
-                 <div class="portfolio-item-content">
-                   <header class="portfolio-item-header">
-                     <h3><a href="http://guarded-spire-35837.herokuapp.com/" target="_blank" class="underscore">Stance Project</a></h3>
-                   </header>
-                 </div>
-               </div>
-             </article>
-
-               <!-- CROWN CLOTHING -->
-
-               <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-                <div class="portfolio-item">
-                  <img class="img" src="./assets/images/crownScreen.png" alt="Crown Clothing">
-                  <div class="portfolio-item-content">
-                    <header class="portfolio-item-header">
-                      <h3><a href="http://ecommerce-react-project.herokuapp.com/" target="_blank" class="underscore">Clothing E-commerce Project</a></h3>
-                    </header>
-                  </div>
+              <div class="cb-splitshow-item" data-cat="website,design">
+                <a class="cb-splitshow-item-img" target="_blank" href="https://mountainroseherbs.com" data-cursor="-color-genesis"
+                  data-cursor-text="view website" aria-label="mountain rose herbs e-commerce website">
+                  <picture>
+                    <!-- <source srcset="./assets/cb/img/ulesson/card.jpg, ./assets/cb/img/ulesson/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                    <img src="./assets/img/mrh-preview.JPG" alt>
+                  </picture>
+                </a>
+                <div class="cb-splitshow-item-text">
+                  <b>Mountain Rose Herbs</b>
+                  – Enterprise e-commerce website with over 5.8 million annual visits.  Lead designer and developer for entire website.
+                  <br> <strong>-Tech Stack: HTML, CSS, SASS, JavaScript, Node.js, Handlebars, Github, BigCommerce</strong> 
                 </div>
-              </article>
-
-
-
-              <!-- Crystal Collector -->
-              <!-- <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-                <div class="portfolio-item">
-                  <img class="img" src="./assets/images/crystals.jpg" alt="Demo Image">
-                  <div class="portfolio-item-content">
-                    <header class="portfolio-item-header">
-                      <h3><a href="#crystal" class="underscore pop-up-btn">Crystal Collector Game</a></h3>
-                    </header>
-                  </div>
+              </div>
+              <div class="cb-splitshow-item" data-cat="website,design,branding">
+                <a class="cb-splitshow-item-img" href="https://mountainrosearomabar.com" target="_blank" data-cursor="-color-sigma"
+                  data-cursor-text="view website" aria-label="Aroma Bar">
+                  <picture>
+                    <!-- <source srcset="./assets/cb/img/sigma/card.jpg, ./assets/cb/img/sigma/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                    <img src="./assets/img/ab-preview.png" loading="lazy" alt>
+                  </picture>
+                </a>
+                <div class="cb-splitshow-item-text">
+                  <b>Mountain Rose Aroma Bar</b>
+                  – 2022 Gold Stevie Award winning WordPress for a retail business.  Full design and development.<br>
+                  <strong>-Tech Stack: WordPress, Elementor, Gutenburg, Custom WordPress Theme Development, Google Analytics</strong>
                 </div>
-              </article> -->
-
-              <!-- Train Tracker -->
-              <!-- <article class=" filtr-item filter-item" data-category="1" data-sort="value">
-                <div class="portfolio-item">
-                  <img class="img" src="./assets/images/train1.jpg" alt="Demo Image">
-                  <div class="portfolio-item-content">
-                    <header class="portfolio-item-header">
-                      <h3><a href="#train" class="underscore pop-up-btn">Train Itinerary</a></h3>
-                    </header>
-                  </div>
+              </div>
+              <div class="cb-splitshow-item" data-cat="website, design">
+                <a class="cb-splitshow-item-img" href="https://blog.mountainroseherbs.com" target="_blank"
+                  data-cursor="-color-nana" data-cursor-text="view website" aria-label="MRH Blog">
+                  <picture>
+                    <!-- <source srcset="./assets/cb/img/puntopago/card.jpg, ./assets/cb/img/puntopago/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                    <img src="./assets/img/blog-preview.png" loading="lazy" alt>
+                  </picture>
+                </a>
+                <div class="cb-splitshow-item-text">
+                  <b>Mountain Rose Herbs Blog</b>
+                  – Custom blog template website built through HubSpot custom development.  CMS + CRM Design and Development.
+                  <br><strong>-Tech Stack: HTML5, Javascript, CSS, HubSpot, HUBL, RESTful API</strong>
                 </div>
-              </article> -->
+              </div>
 
+              <div class="cb-splitshow-item" data-cat="website, design, branding">
+                <a class="cb-splitshow-item-img" href="https://savannahisrael.com/portfoliov1" target="_blank" data-cursor="-color-ulesson"
+                  data-cursor-text="view website" aria-label="Portfolio">
+                  <picture>
+                    <!-- <source srcset="./assets/cb/img/sleepiest/card.jpg, ./assets/cb/img/sleepiest/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                    <img src="./assets/cb/img/ulesson/personalPortfolioHeader.png" loading="lazy" alt>
+                  </picture>
+                </a>
+                <div class="cb-splitshow-item-text">
+                  <b>Portfolio v1.0</b>
+                  – One page portfolio featuring my earliest works.  Template based but entirely customized.  Scrolling color fade background, and other animations.<br>
+                <strong>-Tech Stack: Javascript, jQuery, HTML5, CSS3, BootstrapCDN, Github, Custom Domain,  Adobe Photoshop, XD</strong>
+                </div>
+              </div>
+
+
+
+
+
+
+              <!-- <div class="cb-splitshow-item" data-cat="web">
+                            <a class="cb-splitshow-item-img" href="/projects/wickret/" data-cursor="-color-wickret" data-cursor-text="view case" aria-label="Wickret">
+                                <picture>
+                                    <source srcset="./assets/cb/img/wickret/card.jpg, ./assets/cb/img/wickret/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/wickret/cover.png" srcset="./assets/cb/img/wickret/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Wickret</b>
+                                 – A new way to think about money.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="web">
+                            <a class="cb-splitshow-item-img" href="/projects/nana/" data-cursor="-color-nana" data-cursor-text="view case" aria-label="Nana Asia">
+                                <picture>
+                                    <source srcset="./assets/cb/img/nana/card.jpg, ./assets/cb/img/nana/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/nana/cover.png" srcset="./assets/cb/img/nana/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Nana Asia</b>
+                                 – Asia’s digital magazine, powered by women.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="branding">
+                            <a class="cb-splitshow-item-img" href="/projects/consumervoice/" data-cursor="-color-consumervoice" data-cursor-text="view case" aria-label="ConsumerVoice">
+                                <picture>
+                                    <source srcset="./assets/cb/img/consumervoice/card.jpg, ./assets/cb/img/consumervoice/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/consumervoice/cover.png" srcset="./assets/cb/img/consumervoice/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>ConsumerVoice</b>
+                                 – A service that helps find verified products.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="web,app">
+                            <a class="cb-splitshow-item-img" href="/projects/ohmhealth/" data-cursor="-color-ohmhealth" data-cursor-text="view case" aria-label="OHM Health">
+                                <picture>
+                                    <source srcset="./assets/cb/img/ohmhealth/card.jpg, ./assets/cb/img/ohmhealth/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/ohmhealth/cover.png" srcset="./assets/cb/img/ohmhealth/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>OHM Health</b>
+                                 – Monitor health in real time.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="app">
+                            <a class="cb-splitshow-item-img" href="/projects/raiffeisen/" data-cursor="-color-raiffeisen" data-cursor-text="view case" aria-label="Raiffeisen Bank">
+                                <picture>
+                                    <source srcset="./assets/cb/img/raiffeisen/card.jpg, ./assets/cb/img/raiffeisen/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/raiffeisen/cover.png" srcset="./assets/cb/img/raiffeisen/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Raiffeisen Bank</b>
+                                 – Developing a sleek design for ATM interfaces.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="branding" style="display:none">
+                            <a class="cb-splitshow-item-img" href="/projects/datalight/" data-cursor="-color-datalight" data-cursor-text="view case" aria-label="DataLight">
+                                <picture>
+                                    <source srcset="./assets/cb/img/datalight/card.jpg, ./assets/cb/img/datalight/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/datalight/cover.png" srcset="./assets/cb/img/datalight/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>DataLight</b>
+                                 – Instrument for detailed cryptocurrency market analysis.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="branding" style="display:none">
+                            <a class="cb-splitshow-item-img" href="/projects/dsx-branding/" data-cursor="-color-dsx-branding" data-cursor-text="view case" aria-label="DSX Branding">
+                                <picture>
+                                    <source srcset="./assets/cb/img/dsx-branding/card.jpg, ./assets/cb/img/dsx-branding/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/dsx-branding/cover.png" srcset="./assets/cb/img/dsx-branding/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>DSX Branding</b>
+                                 – Your professional cryptocurrency exchange.
+                            </div>
+                        </div> -->
             </div>
 
 
-
-
-
-
-
-          </div>
-
-
-        </div>
-      </section>
-    </div>
-
-
-    <!-- Contact -->
-    <div class="panel" id="contacts" data-color="darkPeach">
-      <section id="contacts" class="section contacts-section">
-        <div class="container section-header">
-          <div class="row">
-            <!-- section name -->
-            <div class="col-md-6 col-12">
-              <h3 class="title">Contact</h3>
-            </div>
-            <!-- end section name -->
-          </div>
-        </div>
-        <div class="container section-content">
-          <div class="row justify-content-between">
-            <!-- contacts data -->
-            <div class="col-md-6 col-12 contacts-container">
-              <dl>
-                <!-- contact item -->
-                <div class="contact-item">
-                  <dt class="contact-name">phone:</dt><br>
-                  <dd class="contact-data"><a href="tel:720&nbsp;449&nbsp;6907" class="contact-link underscore">(720)
-                      449-6907</a></dd>
+            <div class="cb-splitshow-col -right">
+              <div class="cb-splitshow-item" data-cat="website">
+                <a class="cb-splitshow-item-img" target="_blank" href="https://mountainroseherbsmercantile.com" target="_blank"
+                  data-cursor="-color-riyadh" data-cursor-text="view website" aria-label="Crown">
+                  <picture>
+                    <!-- <source srcset="./assets/cb/img/riyadh/card.jpg, ./assets/cb/img/riyadh/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                    <img src="./assets/img/mercantile-preview.png" alt>
+                  </picture>
+                </a>
+                <div class="cb-splitshow-item-text">
+                  <b>Mountain Rose Herbs Mercantile</b>
+                  – Retail business and event venue website.  Full design, and development project built and deployed from scratch. <br>
+                  <strong>-Teck Stack: HTML, CSS, JavaScript, SCSS, Webpack, FTP</strong>
                 </div>
-                <!-- end contact item -->
-                <!-- contact item -->
-                <div class="contact-item">
-                  <dt class="contact-name">email:</dt><br>
-                  <dd class="contact-data"><a href="mailto:savannah.israel.developer@gmail.com"
-                      class="contact-link underscore">savannah.israel.developer<br>@gmail.com</a></dd>
-                </div>
-                <!-- end contact item -->
-                <!-- contact item -->
-                <div class="contact-item">
-                  <dt class="contact-name">follow me on:</dt><br>
-                  <dd class="contact-data"><a href="https://github.com/savannahisrael"
-                      class="contact-link underscore">github</a><a href="https://www.linkedin.com/in/savannah-israel"
-                      class="contact-link underscore">linkedin</a><a href="https://www.instagram.com/israellycool"
-                      class="contact-link underscore">instagram</a></dd>
-                </div>
-                <!-- end contact item -->
-              </dl>
-            </div>
-            <!-- end contacts data -->
-            <!-- contact form -->
-            <div class="col-md-6 col-12">
-              <form class="contact-form" action="" method="post">
-                <div class="form-group input-box">
-                  <input id="name" class="input" type="text" required="">
-                  <label for="name" class="label">name</label>
-                  <span class="bottom-border"></span>
-                </div><br>
-                <div class="form-group input-box">
-                  <input id="email" class="input" type="email" required="">
-                  <label for="email" class="label">email address</label>
-                  <span class="bottom-border"></span>
-                </div><br>
-                <div class="form-group input-box">
-                  <textarea id="message" class="input" required=""></textarea>
-                  <label for="message" class="label">message</label><br>
-                  <span class="bottom-border"></span>
-                </div>
-                <br>
-                <div class="form-group">
-                  <button class="underscore btn form-btn" type="submit">send me message<i class="left-arrow-ico"></i></button>
-                </div>
-                
-              </form>
+                <div class="cb-splitshow-item" data-cat="website, design">
+                  <a class="cb-splitshow-item-img" target="_blank" href="https://peerlesshotel.com"
+                    data-cursor="-color-genesis
+                    " data-cursor-text="view website" aria-label="Peerless Hotel">
+                    <picture>
+                      <!-- <source srcset="./assets/cb/img/genesis/card.jpg, ./assets/cb/img/genesis/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                      <img src="./assets/img/image_6483441.JPG" loading="lazy" alt>
+                    </picture>
+                  </a>
+                  <div class="cb-splitshow-item-text">
+                    <b>Peerless Hotel</b>
+                    – WordPress wesbite for boutique hotel.  Design + Development + Maintenance<br>
+                    <strong>-Tech Stack:  WordPress, Elementor, Javascript, SEO, MailChimp</strong>
               
+                  </div>
+                </div>
+              </div>
+              
+              <div class="cb-splitshow-item" data-cat="website,design">
+                <a class="cb-splitshow-item-img" href="./projects/sourcery/index.html" target="_blank" data-cursor="-color-sleepiest"
+                  data-cursor-text="view case study" aria-label="sourcery">
+                  <picture>
+                    <!-- <source srcset="./assets/cb/img/ulesson/card.jpg, ./assets/cb/img/ulesson/card@2x.jpg 2x" media="(min-width:768px)"> -->
+                    <img src="./assets/cb/img/sleepiest/sourceryScreen copy.png" alt>
+                  </picture>
+                </a>
+                <div class="cb-splitshow-item-text">
+                  <b>SOURCERY</b>
+                  – Online platform for coding bootcamp students to collaborate on projects and share resources.  Github OAuth and "cohort" organization allow students and teachers to create, inspire, and communicate in a purposeful way.  See the Case Study for Details.
+                  <br> <strong>-Tech Stack: MERN, ES6, Node.js, Git, Heroku, MongoDB Atlas, OAuth API, Graph.ql, Adobe XD</strong> 
+                </div>
+              </div>
+
+
+
+              <!-- <div class="cb-splitshow-item" data-cat="web,app">
+                            <a class="cb-splitshow-item-img" href="/projects/rallyreader/" data-cursor="-color-rallyreader" data-cursor-text="view case" aria-label="Rally Reader">
+                                <picture>
+                                    <source srcset="./assets/cb/img/rallyreader/card.jpg, ./assets/cb/img/rallyreader/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/rallyreader/cover.png" srcset="./assets/cb/img/rallyreader/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Rally Reader</b>
+                                 – Private reading coach that hears you read.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="web,app">
+                            <a class="cb-splitshow-item-img" href="/projects/wambi/" data-cursor="-color-wambi" data-cursor-text="view case" aria-label="Wambi">
+                                <picture>
+                                    <source srcset="./assets/cb/img/wambi/card.jpg, ./assets/cb/img/wambi/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/wambi/cover.png" srcset="./assets/cb/img/wambi/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Wambi</b>
+                                 – When communication increases motivation.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="app">
+                            <a class="cb-splitshow-item-img" href="/projects/monmarche/" data-cursor="-color-monmarche" data-cursor-text="view case" aria-label="Mon Marché">
+                                <picture>
+                                    <source srcset="./assets/cb/img/monmarche/card.jpg, ./assets/cb/img/monmarche/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/monmarche/cover.png" srcset="./assets/cb/img/monmarche/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Mon Marché</b>
+                                 – Home delivery of fresh fruit and vegetables.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="web,app">
+                            <a class="cb-splitshow-item-img" href="/projects/dsx/" data-cursor="-color-dsx" data-cursor-text="view case" aria-label="DSX">
+                                <picture>
+                                    <source srcset="./assets/cb/img/dsx/card.jpg, ./assets/cb/img/dsx/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/dsx/cover.png" srcset="./assets/cb/img/dsx/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>DSX</b>
+                                 – Your professional cryptocurrency exchange.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="branding">
+                            <a class="cb-splitshow-item-img" href="/projects/cisco/" data-cursor="-color-cisco" data-cursor-text="view case" aria-label="Cisco">
+                                <picture>
+                                    <source srcset="./assets/cb/img/cisco/card.jpg, ./assets/cb/img/cisco/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/cisco/cover.png" srcset="./assets/cb/img/cisco/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Cisco</b>
+                                 – Cloud based network management.
+                            </div>
+                        </div> -->
+              <!-- <div class="cb-splitshow-item" data-cat="branding" style="display:none">
+                            <a class="cb-splitshow-item-img" href="/projects/genesis-branding/" data-cursor="-color-genesis-branding" data-cursor-text="view case" aria-label="Genesis Vision Branding">
+                                <picture>
+                                    <source srcset="./assets/cb/img/genesis-branding/card.jpg, ./assets/cb/img/genesis-branding/card@2x.jpg 2x" media="(min-width:768px)">
+                                    <img src="./assets/cb/img/genesis-branding/cover.png" srcset="./assets/cb/img/genesis-branding/cover@2x.png" loading="lazy" alt>
+                                </picture>
+                            </a>
+                            <div class="cb-splitshow-item-text">
+                                <b>Genesis Vision Branding</b>
+                                 – Private trust management and trading platform.
+                            </div>
+                        </div> -->
             </div>
-            <!-- end contact form -->
           </div>
         </div>
+
+      </section>
+
+      <section class="cb-tagreel">
+      <div class="cb-tagreel-content">
+        <div class="cb-tagreel-items" role="marquee">
+          <div class="cb-tagreel-row">
+            <div class="cb-tagreel-item"><span>Strategy</span></div>
+            <div class="cb-tagreel-item -stroke"><span>Strategy</span></div>
+            <div class="cb-tagreel-item"><span>Strategy</span></div>
+            <div class="cb-tagreel-item -stroke"><span>Strategy</span></div>
+            <div class="cb-tagreel-item"><span>Strategy</span></div>
+          </div>
+          <div class="cb-tagreel-row">
+            <div class="cb-tagreel-item -stroke"><span>Design</span></div>
+            <div class="cb-tagreel-item"><span>Design</span></div>
+            <div class="cb-tagreel-item -stroke"><span>Design</span></div>
+            <div class="cb-tagreel-item"><span>Design</span></div>
+            <div class="cb-tagreel-item -stroke"><span>Design</span></div>
+          </div>
+          <div class="cb-tagreel-row">
+            <div class="cb-tagreel-item"><span>Develop<s>ment</s></span></div>
+            <div class="cb-tagreel-item -stroke"><span>Develop<s>ment</s></span></div>
+            <div class="cb-tagreel-item"><span>Develop<s>ment</s></span></div>
+            <div class="cb-tagreel-item -stroke"><span>Develop<s>ment</s></span></div>
+            <div class="cb-tagreel-item"><span>Develop<s>ment</s></span></div>
+          </div>
+          <div class="cb-tagreel-row">
+            <div class="cb-tagreel-item -stroke"><span>Growth</span></div>
+            <div class="cb-tagreel-item"><span>Growth</span></div>
+            <div class="cb-tagreel-item -stroke"><span>Growth</span></div>
+            <div class="cb-tagreel-item"><span>Growth</span></div>
+            <div class="cb-tagreel-item -stroke"><span>Growth</span></div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- <section class="cb-newsfeed">
+        <div class="cb-newsfeed-content">
+          <div class="cb-newsfeed-container">
+            <div class="cb-newsfeed-grid">
+              <div class="cb-newsfeed-grid-col -left">
+                <div class="cb-newsfeed-header">
+                  <h2>Latest news</h2>
+                </div>
+              </div>
+              <div class="cb-newsfeed-grid-col -right">
+                <div class="cb-newsfeed-list"><a class="cb-newsfeed-list-item" href="/news/4/"
+                    data-img-src="/assets/img/news/4/1.jpg"><span class="cb-newsfeed-list-item-title">Subscribe to our
+                      Patreon channel: all the best and newest ones will be there</span><time
+                      class="cb-newsfeed-list-item-time">Jun 10, 2020</time></a><a class="cb-newsfeed-list-item"
+                    href="/news/3/" data-video-src="/assets/img/news/3/1.mp4"><span
+                      class="cb-newsfeed-list-item-title">Design tips for designers, that cover everything you need to
+                      increase your skill</span><time class="cb-newsfeed-list-item-time">Jun 2, 2020</time></a><a
+                    class="cb-newsfeed-list-item" href="/news/2/" data-video-src="/assets/img/news/2/1.mp4"><span
+                      class="cb-newsfeed-list-item-title">Figma Tutorial & Liquid Swipe After Effects Animation
+                      (2020)</span><time class="cb-newsfeed-list-item-time">May 6, 2020</time></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="cb-outro">
+      <div class="cb-outro-content" data-cursor="-inverse">
+        <div class="cb-outro-body">
+          <div class="cb-outro-container">
+            <div class="cb-outro-header">
+              <h2>Have an idea?</h2><a href="mailto:savannah.israel.development@gmail.com">Let's learn and build together.</a>
+            </div>
+          </div>
+        </div>
+        <div class="cb-outro-footer">
+          <div class="cb-outro-container">
+            <div class="cb-outro-grid">
+              <div class="cb-outro-grid-col -left">
+                <div class="cb-outro-mail"><a href="mailto:savannah.israel.development@gmail.com">
+                    <span>savannah.israel.development@gmail.com</span>
+                  </a></div>
+                <div class="cb-outro-address">
+                  <address>
+
+                    <p>Eugene, Oregon || Remote</p>
+                  </address>
+                </div>
+          
+              </div>
+              <div class="cb-outro-grid-col -right">
+                <!-- <div class="cb-outro-social">
+                    <div class="cb-outro-social-row"><a class="cb-outro-social-item"
+                        href="//www.facebook.com/Cuberto.design" target="_blank" rel="noopener"
+                        aria-label="Facebook"><span class="cb-outro-social-item-title"><span
+                            data-text="Facebook">Facebook</span></span><svg class="cb-svgsprite -facebook">
+                          <use xlink:href="/assets/img/sprites/svgsprites.svg#facebook"></use>
+                        </svg></a><a class="cb-outro-social-item -patreon" href="//www.patreon.com/cuberto"
+                        target="_blank" rel="noopener" aria-label="Patreon"><span
+                          class="cb-outro-social-item-title"><span data-text="Patreon">Patreon</span></span><svg
+                          class="cb-svgsprite -patreon">
+                          <use xlink:href="/assets/img/sprites/svgsprites.svg#patreon"></use>
+                        </svg></a><a class="cb-outro-social-item -behance" href="//www.behance.net/cuberto"
+                        target="_blank" rel="noopener" aria-label="Behance"><span
+                          class="cb-outro-social-item-title"><span data-text="Behance">Behance</span></span><svg
+                          class="cb-svgsprite -behance">
+                          <use xlink:href="/assets/img/sprites/svgsprites.svg#behance"></use>
+                        </svg></a></div>
+                    <div class="cb-outro-social-row"><a class="cb-outro-social-item -dribble"
+                        href="//dribbble.com/cuberto" target="_blank" rel="noopener" aria-label="Dribbble"><span
+                          class="cb-outro-social-item-title"><span data-text="Dribbble">Dribbble</span></span><svg
+                          class="cb-svgsprite -dribbble">
+                          <use xlink:href="/assets/img/sprites/svgsprites.svg#dribbble"></use>
+                        </svg></a><a class="cb-outro-social-item -instagram" href="//www.instagram.com/cubertodesign/"
+                        target="_blank" rel="noopener" aria-label="Instagram"><span
+                          class="cb-outro-social-item-title"><span data-text="Instagram">Instagram</span></span><svg
+                          class="cb-svgsprite -instagram">
+                          <use xlink:href="/assets/img/sprites/svgsprites.svg#instagram"></use>
+                        </svg></a><a class="cb-outro-social-item -youtube"
+                        href="//www.youtube.com/channel/UCzestFrXpwSGCfcbO2pObwQ" target="_blank" rel="noopener"
+                        aria-label="YouTube"><span class="cb-outro-social-item-title"><span
+                            data-text="YouTube">YouTube</span></span><svg class="cb-svgsprite -youtube">
+                          <use xlink:href="/assets/img/sprites/svgsprites.svg#youtube"></use>
+                        </svg></a></div>
+                  </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       </section>
     </div>
- 
-
-
-
-    <!-- Start Scroll to top -->
-    <a href="#landing-page" class="underscore scroll-to-top scroll-to-btn">scroll to top<i
-        class="left-arrow-ico"></i></a>
-
-  </main>
-  <!-- End Main Content -->
-
-
-
-  <!-- Start Pop Ups -->
-
-  <!-- Start Babes In Brunchland (Pop-up window) -->
-  <div id="brunch" class="pop-up-window">
-    <div class="pop-up-top-panel">
-      <div class="container ">
-        <div class="row justify-content-end">
-          <div class="col-auto">
-            <!-- close pop-up window button -->
-            <a href="#brunch" class="pop-up-btn">
-              <div class="close-ico">
-                <span class="label">close</span>
-                <div class="close-wrap">
-                  <span class="close-horizontal"></span>
-                  <span class="close-vertical"></span>
-                </div>
-              </div>
-            </a>
-            <!-- end close pop-up window button -->
+    <div class="cb-modal cb-modal_box" id="modal-work-filters">
+      <div class="cb-modal_box-backdrop"></div>
+      <div class="cb-modal_box-dialog">
+        <div class="cb-modal_box-container">
+          <div class="cb-modal_box-nav">
+            <div class="cb-modal_box-nav-item">
+              <a data-filter-target="all">
+                <span class="cb-modal_box-nav-item-title">
+                  <span data-text="All Projects">All Projects</span>
+                </span>
+              </a>
+            </div>
+            <div class="cb-modal_box-nav-item">
+              <a data-filter-target="website">
+                <span class="cb-modal_box-nav-item-title">
+                  <span data-text="Websites">Web Development</span>
+                </span>
+              </a>
+            </div>
+            <div class="cb-modal_box-nav-item">
+              <a data-filter-target="design">
+                <span class="cb-modal_box-nav-item-title">
+                  <span data-text="Applications">Design</span>
+                </span>
+              </a>
+            </div>
+            <div class="cb-modal_box-nav-item">
+              <a data-filter-target="branding">
+                <span class="cb-modal_box-nav-item-title">
+                  <span data-text="Branding">Branding</span>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- pop-up window content, article -->
-    <article class="pop-up-content">
-      <div class="container ">
-        <div class="row justify-content-between">
-          <div class="col-md-5 col-12">
-            <div class="sticky">
-              <header class="pop-up-header">
-                <h3>Babes In Brunchland</h3>
-              </header>
-              <a href="https://github.com/savannahisrael/BabesInBrunchland" target="_blank"><img src="assets/images/icons/002-file.png" alt="Github Repository"></a>
-              <a href="https://savannahisrael.github.io/BabesInBrunchland/index.html" target="_blank"><img src="assets/images/icons/001-computer.png" alt="Launch Website"></a>
-              <p>Babes In Brunchland is a fun and stylish PWA that allows users to search for a 'brunch-spot' by
-                location and pricepoint. The user can then browse through a quick list of all the matching results. Next
-                they can click to get details, including a map, and link to menu. Once they have found the best spot
-                they can create a custom invitation to download and share.
-              </p>
-              <p>Objective:<br>This was a collaborative group project.</p>
-              <p>Process:<br></p>
-              <footer class="pop-up-footer">
-                <dl class="description-container">
-                  <div class="description-item">
-                    <dt class="description-name">categories:</dt>
-                    <dd class="description-data">web design</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">project by:</dt>
-                    <dd class="description-data">Savannah Israel</dd>
-                    <dd class="description-data">Rachael Whitefield</dd>
-                    <dd class="description-data">Claudia Pollinger</dd>
-                    <dd class="description-data">Genivieve Depriest</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">client:</dt>
-                    <dd class="description-data">University of Denver<br>Coding Bootcamp</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">made in:</dt>
-                    <dd class="description-data">June 2019</dd>
-                  </div>
-                </dl>
-              </footer>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-5 col-12 overflow-auto">
-            <div class="sticky">
-              <div class='video-responsive'>
-                <iframe src="https://spark.adobe.com/video/sBGuw6q65JUp7/embed" frameborder="0" webkitallowfullscreen
-                  mozallowfullscreen allowfullscreen></iframe>
-              </div>
-
-
-              <img src="./assets/images/babes-in-brunchland/home-preview.png"
-                class="figure-img img-fluid rounded img-responsive" alt="...">
-
-              <img src="./assets/images/babes-in-brunchland/detailsPreview.png"
-                class="img-responsive rounded img-fluid" alt="...">
-              <img src="./assets/images/babes-in-brunchland/invite-maker-preview.png"
-                class="img-responsive rounded float-left" max-width="45%" alt="...">
-
-              <img src="./assets/images/babes-in-brunchland/InvitePreview.png"
-                class="img-responsive rounded float-right" max-width="45%" alt="...">
-
-            </div>
-          </div>
-        </div>
-      </div>
   </div>
-  </article>
-  <!-- end pop-up window content, article -->
-  </div>
-  <!-- End Babes In Brunchland (Pop-up window) -->
+  <script async src="assets/js/bundle.js" defer></script>
 
-  <!-- Start Crystal Collector (Pop-up window) -->
-  <div id="crystal" class="pop-up-window">
-    <div class="pop-up-top-panel">
-      <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-auto">
-            <!-- close pop-up window button -->
-            <a href="#crystal" class="pop-up-btn">
-              <div class="close-ico">
-                <span class="label">close</span>
-                <div class="close-wrap">
-                  <span class="close-horizontal"></span>
-                  <span class="close-vertical"></span>
-                </div>
-              </div>
-            </a>
-            <!-- end close pop-up window button -->
-          </div>
-        </div>
-      </div>
+  <!-- <noscript>
+    <link rel="stylesheet" href="./assets/css/noscript.css">
+  </noscript>
+  <script>
+    setTimeout(function () {
+      (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+          (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t),
+          a = e.getElementsByTagName(t)[0],
+          k.async = 1,
+          k.src = r,
+          a.parentNode.insertBefore(k, a)
+      })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(window.ymID = 22519915, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+      });
+    }, 5000);
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/22519915" style="position:absolute; left:-9999px;">
     </div>
-    <!-- pop-up window content, article -->
-    <article class="pop-up-content">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-md-5 col-12">
-            <div class="sticky">
-              <header class="pop-up-header">
-                <h3>Crystal Collector</h3>
-              </header>
-              <p>Phasellus tortor eros, vehicula nec mollis vitae, non orci. Nullam ornare diam quis posuere gravida.
-              </p>
-              <p>Integer viverra ligula lacus, eget egestas erat elementum vel. Sed quis dui malesuada, venenatis nibh
-                quis, molestie lorem. Mauris tristique, ipsum eu semper volutpat, lectus odio tempus massa, in pharetra
-                orci orci et diam.</p>
-              <p>Ab at cumque ducimus earum, illum impedit iure molestiae numquam perspiciatis placeat provident quam,
-                quo recusandae reiciendis rerum soluta ut. Aliquam deleniti ex illum incidunt itaque maiores odio.</p>
-              <footer class="pop-up-footer">
-                <dl class="description-container">
-                  <div class="description-item">
-                    <dt class="description-name">categories:</dt>
-                    <dd class="description-data">web design</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">project by:</dt>
-                    <dd class="description-data">Andrew Owens</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">client:</dt>
-                    <dd class="description-data">USA Airlines</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">made in:</dt>
-                    <dd class="description-data">may 2018</dd>
-                  </div>
-                </dl>
-              </footer>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-5 col-12">
-            <div class="sticky">
-              <div class='video-responsive'>
-                <iframe src="https://player.vimeo.com/video/76979871" frameborder="0" webkitallowfullscreen
-                  mozallowfullscreen allowfullscreen></iframe>
-              </div>
-              <img class="img-responsive" src="img/demo-img.jpg" alt="text">
-              <img class="img-responsive" src="img/demo-img.jpg" alt="text">
-              <div class='video-responsive'>
-                <iframe src="https://www.youtube.com/embed/pRxwMbWIsFk" frameborder="0"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-    <!-- end pop-up window content, article -->
-  </div>
-  <!-- End Crystal Collector(Pop-up window) -->
-
-  <!-- Start Psychic (Pop-up window) -->
-  <div id="psychic" class="pop-up-window">
-    <div class="pop-up-top-panel">
-      <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-auto">
-            <!-- close pop-up window button -->
-            <a href="#psychic" class="pop-up-btn">
-              <div class="close-ico">
-                <span class="label">close</span>
-                <div class="close-wrap">
-                  <span class="close-horizontal"></span>
-                  <span class="close-vertical"></span>
-                </div>
-              </div>
-            </a>
-            <!-- end close pop-up window button -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- pop-up window content, article -->
-    <article class="pop-up-content">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-md-5 col-12">
-            <div class="sticky">
-              <header class="pop-up-header">
-                <h3>Psychic Game</h3>
-              </header>
-              <p>Phasellus tortor eros, vehicula nec mollis vitae, non orci. Nullam ornare diam quis posuere gravida.
-              </p>
-              <p>Integer viverra ligula lacus, eget egestas erat elementum vel. Sed quis dui malesuada, venenatis nibh
-                quis, molestie lorem. Mauris tristique, ipsum eu semper volutpat, lectus odio tempus massa, in pharetra
-                orci orci et diam.</p>
-              <p>Ab at cumque ducimus earum, illum impedit iure molestiae numquam perspiciatis placeat provident quam,
-                quo recusandae reiciendis rerum soluta ut. Aliquam deleniti ex illum incidunt itaque maiores odio.</p>
-              <footer class="pop-up-footer">
-                <dl class="description-container">
-                  <div class="description-item">
-                    <dt class="description-name">categories:</dt>
-                    <dd class="description-data">web design</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">project by:</dt>
-                    <dd class="description-data">Andrew Owens</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">client:</dt>
-                    <dd class="description-data">USA Airlines</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">made in:</dt>
-                    <dd class="description-data">may 2018</dd>
-                  </div>
-                </dl>
-              </footer>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-5 col-12">
-            <div class="sticky">
-              <div class='video-responsive'>
-                <iframe src="https://player.vimeo.com/video/76979871" frameborder="0" webkitallowfullscreen
-                  mozallowfullscreen allowfullscreen></iframe>
-              </div>
-              <img class="img-responsive" src="img/demo-img.jpg" alt="text">
-              <img class="img-responsive" src="img/demo-img.jpg" alt="text">
-              <div class='video-responsive'>
-                <iframe src="https://www.youtube.com/embed/pRxwMbWIsFk" frameborder="0"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-    <!-- end pop-up window content, article -->
-  </div>
-  <!-- End Psychic Collector(Pop-up window) -->
-
-  <!-- Start Train Tracker (Pop-up window) -->
-  <div id="train" class="pop-up-window">
-    <div class="pop-up-top-panel">
-      <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-auto">
-            <!-- close pop-up window button -->
-            <a href="#train" class="pop-up-btn">
-              <div class="close-ico">
-                <span class="label">close</span>
-                <div class="close-wrap">
-                  <span class="close-horizontal"></span>
-                  <span class="close-vertical"></span>
-                </div>
-              </div>
-            </a>
-            <!-- end close pop-up window button -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- pop-up window content, article -->
-    <article class="pop-up-content">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-md-5 col-12">
-            <div class="sticky">
-              <header class="pop-up-header">
-                <h3>Train Tracker</h3>
-              </header>
-              <p>Phasellus tortor eros, vehicula nec mollis vitae, non orci. Nullam ornare diam quis posuere gravida.
-              </p>
-              <p>Integer viverra ligula lacus, eget egestas erat elementum vel. Sed quis dui malesuada, venenatis nibh
-                quis, molestie lorem. Mauris tristique, ipsum eu semper volutpat, lectus odio tempus massa, in pharetra
-                orci orci et diam.</p>
-              <p>Ab at cumque ducimus earum, illum impedit iure molestiae numquam perspiciatis placeat provident quam,
-                quo recusandae reiciendis rerum soluta ut. Aliquam deleniti ex illum incidunt itaque maiores odio.</p>
-              <footer class="pop-up-footer">
-                <dl class="description-container">
-                  <div class="description-item">
-                    <dt class="description-name">categories:</dt>
-                    <dd class="description-data">web design</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">project by:</dt>
-                    <dd class="description-data">Andrew Owens</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">client:</dt>
-                    <dd class="description-data">USA Airlines</dd>
-                  </div>
-                  <div class="description-item">
-                    <dt class="description-name">made in:</dt>
-                    <dd class="description-data">may 2018</dd>
-                  </div>
-                </dl>
-              </footer>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-5 col-12">
-            <div class="sticky">
-              <div class='video-responsive'>
-                <iframe src="https://player.vimeo.com/video/76979871" frameborder="0" webkitallowfullscreen
-                  mozallowfullscreen allowfullscreen></iframe>
-              </div>
-              <img class="img-responsive" src="img/demo-img.jpg" alt="text">
-              <img class="img-responsive" src="img/demo-img.jpg" alt="text">
-              <div class='video-responsive'>
-                <iframe src="https://www.youtube.com/embed/pRxwMbWIsFk" frameborder="0"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-    <!-- end pop-up window content, article -->
-  </div>
-  <!-- End Train Trackaer (Pop-up window) -->
-
-  <!-- End Pop Ups -->
-
-
-  <!-- Script Tags -->
-  <script src="./assets/lib/jquery/dist/jquery.min.js"></script>
-  <script src="./assets/lib/in-view/dist/in-view.min.js"></script>
-  <script src="./assets/js/app.js"></script>
-  <!-- End Script Tags -->
+  </noscript> -->
 </body>
 
 </html>
-
-<!-- a href="https://www.testdome.com/cert/e3b5f509f81247768aa8041609e69994" class="testdome-certificate-stamp gold"><span class="testdome-certificate-name">Savannah Israel</span><span class="testdome-certificate-test-name">HTML/CSS and JavaScript </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a><script type="text/javascript">var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script> -->
